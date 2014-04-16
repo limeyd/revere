@@ -1,0 +1,28 @@
+{
+  "name": "revere",
+  "description": "Simple nodejs library for connecting SocketIO events to writeable streams in a structured manner.",
+  "homepage": "http://github.com/limeyd/revere",
+  "version": "0.1.0",
+  "author": "limeyd <limeyd@gmail.com>",
+  "main" : "./index",
+  "keywords" : [ "streams", "log", "socketIO" ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/limeyd/revere.git"
+  },
+  "bugs": {
+    "url": "http://github.com/limeyd/revere/issues/"
+  },
+  "dependencies": {
+    "moment": "~2.5.1",
+    "underscore": "~1.6.0",
+    "socket.io-client": "~0.9.16",
+    "stream-rotate": "https://api.github.com/repos/limeyd/stream-rotate/tarball/e3f0b8cf26a97819996cdf15c74378b75c240b13",
+    "csv": "~0.3.7",
+    "debug": "~0.7.4"
+  },
+  "license": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }]
+}
